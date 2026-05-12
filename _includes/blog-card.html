@@ -1,0 +1,16 @@
+{% assign tone = include.post.tone | default: post.tone %}
+{% assign t0 = tone[0] | default: "#e2dcc9" %}
+{% assign t1 = tone[1] | default: "#b8a888" %}
+<a class="blog-card {% if include.large %}blog-card--large{% endif %}" data-post-cat="{{ include.post.category }}" href="{{ include.post.url | relative_url }}" style="text-decoration:none; border:0;">
+  <div class="blog-card__panel" style="background: linear-gradient(135deg, {{ t0 }} 0%, {{ t1 }} 100%);"></div>
+  <div class="blog-card__meta">
+    <span class="blog-card__cat">{{ include.post.category }}</span>
+    <span class="sep">·</span>
+    <span class="blog-card__date">{{ include.post.date | date: "%b %d, %Y" }}</span>
+    <span class="sep">·</span>
+    <span class="blog-card__read">{{ include.post.read | default: "6 min" }}</span>
+  </div>
+  <h3 class="blog-card__title">{{ include.post.title }}</h3>
+  <p class="blog-card__excerpt">{{ include.post.excerpt_text | default: include.post.excerpt | strip_html | strip | truncate: 180 }}</p>
+  <span class="blog-card__cta">Read article →</span>
+</a>

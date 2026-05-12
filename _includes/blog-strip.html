@@ -1,0 +1,16 @@
+<section class="section">
+  <div class="section__inner">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">From the journal</p>
+        <h2 class="section-title">Reading on the market.</h2>
+      </div>
+      <a class="link-underline" href="{{ '/journal/' | relative_url }}">All articles →</a>
+    </div>
+    <div class="blog-grid">
+      {% for p in site.posts limit: 3 %}
+        {% include blog-card.html post=p %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

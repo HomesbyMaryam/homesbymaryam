@@ -1,0 +1,28 @@
+---
+layout: default
+title: "Journal"
+description: "Reading on the market — a quiet collection of buying tips, selling tips, and Ontario real estate notes."
+permalink: /journal/
+---
+
+<section class="section section--pad-140">
+  <div class="section__inner">
+    <p class="eyebrow">The journal</p>
+    <h1 class="section-title">Reading on the market.</h1>
+
+    {% assign cats = "All,Buying Tips,Selling Tips,Market Updates,Ontario Real Estate,Lifestyle" | split: "," %}
+    <div class="filter-row" style="margin: 44px 0 56px;">
+      {% for c in cats %}
+        <button class="chip {% if forloop.first %}is-active{% endif %}" data-cat="{{ c }}" type="button">{{ c }}</button>
+      {% endfor %}
+    </div>
+
+    <div class="blog-grid" data-journal-grid>
+      {% for p in site.posts %}
+        {% include blog-card.html post=p %}
+      {% endfor %}
+    </div>
+
+    {% include author-block.html %}
+  </div>
+</section>

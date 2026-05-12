@@ -1,0 +1,29 @@
+{% assign over_hero = false %}
+{% if page.transparent_header %}{% assign over_hero = true %}{% endif %}
+
+<header class="site-header{% if over_hero %} is-over-hero{% endif %}" data-transparent="{{ over_hero }}">
+  {% include wordmark.html %}
+
+  <nav class="nav-primary" aria-label="Primary">
+    {% for link in site.nav %}
+      {% assign url = link.url | relative_url %}
+      {% assign current = false %}
+      {% if page.url == link.url %}{% assign current = true %}{% endif %}
+      <a href="{{ url }}" class="{% if current %}is-active{% endif %}">{{ link.label }}</a>
+    {% endfor %}
+  </nav>
+
+  <a href="{{ '/contact/' | relative_url }}" class="header-cta">Book a call</a>
+
+  <button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="nav-drawer" aria-expanded="false">
+    <span></span>
+  </button>
+</header>
+
+<aside class="nav-drawer" id="nav-drawer" aria-hidden="true">
+  {% for link in site.nav %}
+    {% assign current = false %}
+    {% if page.url == link.url %}{% assign current = true %}{% endif %}
+    <a href="{{ link.url | relative_url }}" class="{% if current %}is-active{% endif %}">{{ link.label }}</a>
+  {% endfor %}
+</aside>
