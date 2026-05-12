@@ -1,0 +1,57 @@
+title: "Maryam Haghighi — Real Estate, Ontario"
+description: "Real estate, considered. A short list of homes across the Greater Toronto Area."
+url: "https://homesbymaryam.ca"
+baseurl: ""
+author: "Maryam Haghighi"
+
+permalink: /journal/:slug/
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - _design
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+
+collections:
+  listings:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+contact:
+  phone: "905-731-2000"
+  email: "maryam@homesbymaryam.ca"
+  office: "8854 Yonge St., Richmond Hill, ON"
+  postal: "L4C 0T4"
+  hours: "By appointment only"
+  mls: "https://maryamhaghighi.royallepage.ca"
+  tagline: "Expertise. Integrity. Smart Investments."
+
+social:
+  - { name: "Instagram", url: "https://instagram.com/" }
+  - { name: "Facebook",  url: "https://facebook.com/" }
+  - { name: "LinkedIn",  url: "https://linkedin.com/" }
+
+nav:
+  - { label: "Home",     url: "/" }
+  - { label: "About",    url: "/about/" }
+  - { label: "Buy",      url: "/buy/" }
+  - { label: "Sell",     url: "/sell/" }
+  - { label: "Journal",  url: "/journal/" }
+  - { label: "Contact",  url: "/contact/" }

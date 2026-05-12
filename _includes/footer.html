@@ -1,0 +1,62 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div class="agent-card">
+        <div class="agent-card__head">
+          <div class="agent-card__avatar" role="img" aria-label="Maryam Haghighi"></div>
+          <div>
+            <p class="agent-card__name">Maryam Haghighi</p>
+            <p class="agent-card__role">Sales Representative</p>
+          </div>
+        </div>
+        <p class="agent-card__blurb">
+          A short list of clients across the Greater Toronto Area, fully looked after.
+          Reach out for a quiet conversation about your next move.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <p>{{ site.contact.office }}</p>
+        <p>{{ site.contact.hours }}</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:{{ site.contact.phone | replace: ' ', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' }}">{{ site.contact.phone }}</a>
+        <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow</h4>
+        {% for s in site.social %}
+          <a href="{{ s.url }}" rel="noopener" target="_blank">{{ s.name }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="brokered-by">
+      <span class="brokered-by__label">Brokered by</span>
+      <img class="brokered-by__logo"
+           src="{{ '/assets/images/brokerage/yourcommunityrealty-logo-white.png' | relative_url }}"
+           alt="RE/MAX You Community Realty Brokerage" />
+      <span class="brokered-by__suffix">Independently owned &amp; operated</span>
+    </div>
+
+    <hr class="site-footer__rule" />
+
+    <div class="site-footer__legal">
+      <div class="site-footer__legal-body">
+        <img class="site-footer__legal-logo"
+             src="{{ '/assets/images/brokerage/yourcommunityrealty-logo-white.png' | relative_url }}"
+             alt="RE/MAX You Community Realty Brokerage" />
+        <p>Maryam — Sales Representative, RE/MAX You Community Realty Brokerage LTD.</p>
+        <p>REALTOR® and MLS® are trademarks owned or controlled by the Canadian Real Estate Association (CREA) and identify real estate professionals who are members of CREA. The trademarks REALTOR®, REALTORS®, and the REALTOR® logo identify real estate professionals who are members of CREA. Listing information is provided under the IDX program and is deemed reliable but not guaranteed.</p>
+      </div>
+      <div class="realtor-mark-wrap">
+        <div class="realtor-mark" aria-hidden="true">R®</div>
+        <p>REALTOR® · TRREB</p>
+      </div>
+    </div>
+  </div>
+</footer>

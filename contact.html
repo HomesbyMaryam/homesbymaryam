@@ -1,0 +1,70 @@
+---
+layout: default
+title: "Contact"
+description: "Get in touch with Maryam Haghighi — a quiet conversation about your next move."
+permalink: /contact/
+---
+
+<section class="section section--pad-140">
+  <div class="section__inner">
+    <div class="two-col">
+      <div>
+        <p class="eyebrow">Get in touch</p>
+        <h1 class="section-title">Let's talk.</h1>
+        <p class="lead" style="margin-top:16px; margin-bottom:40px;">
+          Tell me a little about what you're thinking. I'll reply within a business day — usually sooner.
+        </p>
+
+        <form class="form-grid" onsubmit="event.preventDefault();">
+          <div class="form-grid form-grid--2">
+            <label class="field"><span class="field__label">Name</span>
+              <input class="field__input" type="text" name="name" />
+            </label>
+            <label class="field"><span class="field__label">Email</span>
+              <input class="field__input" type="email" name="email" />
+            </label>
+          </div>
+          <div class="form-grid form-grid--2">
+            <label class="field"><span class="field__label">Phone</span>
+              <input class="field__input" type="tel" name="phone" />
+            </label>
+            <label class="field"><span class="field__label">Buying or selling?</span>
+              <select class="field__input-select" name="intent">
+                <option>Buying</option>
+                <option>Selling</option>
+                <option>Both</option>
+                <option>Curious</option>
+              </select>
+            </label>
+          </div>
+          <label class="field"><span class="field__label">Message</span>
+            <textarea class="field__input-textarea" name="message" rows="5"></textarea>
+          </label>
+          <button class="btn btn--dark" type="submit" style="justify-self:start;">Send message</button>
+        </form>
+      </div>
+
+      <div>
+        <div class="contact-map">
+          <iframe
+            title="Map to 8854 Yonge St., Richmond Hill, ON L4C 0T4"
+            src="https://www.google.com/maps?q=8854+Yonge+St,+Richmond+Hill,+ON+L4C+0T4&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+        <p class="contact-map__caption">
+          <strong>8854 Yonge St.</strong><br />
+          Richmond Hill, ON L4C 0T4<br />
+          By appointment only
+        </p>
+        <p style="font-size:14px; color:var(--walnut); line-height:1.8; margin:0;">
+          <a href="tel:{{ site.contact.phone | replace: ' ', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' }}">{{ site.contact.phone }}</a><br />
+          <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a><br /><br />
+          Maryam Haghighi - Sales Representative<br />
+          RE/MAX You Community Realty Brokerage LTD.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

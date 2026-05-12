@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article>
+  <header class="post-hero">
+    <p class="eyebrow">{{ page.category | default: "The journal" }}</p>
+    <h1 class="post-hero__title">{{ page.title }}</h1>
+    {% if page.excerpt_text %}<p class="post-hero__lead">{{ page.excerpt_text }}</p>{% endif %}
+    <div class="post-hero__meta" style="margin-top: 32px;">
+      <span class="date">{{ page.date | date: "%b %d, %Y" }}</span>
+      <span class="sep">·</span>
+      <span class="read">{{ page.read | default: "6 min" }}</span>
+    </div>
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <div class="section section--alt">
+    <div class="section__inner">
+      {% include author-block.html %}
+    </div>
+  </div>
+</article>
