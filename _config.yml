@@ -1,10 +1,26 @@
 google_analytics: "G-K4EX19W5H7"
 
 title: "Maryam Haghighi — Real Estate, Ontario"
-description: "Real estate, considered. A short list of homes across the Greater Toronto Area."
+tagline: "REALTOR® serving Richmond Hill & the Greater Toronto Area"
+description: "Real estate, considered. Expert guidance for buyers, sellers, and investors across the Greater Toronto Area — Richmond Hill, Toronto, Vaughan, Markham, and Mississauga."
 url: "https://homesbymaryam.ca"
 baseurl: ""
-author: "Maryam Haghighi"
+
+author:
+  name: "Maryam Haghighi"
+  url: "https://homesbymaryam.ca/about/"
+
+twitter:
+  username: "homesbymaryam"
+  card: "summary_large_image"
+
+image: "/assets/images/photos/maryam-headshot-studio.jpg"
+
+social:
+  name: "Maryam Haghighi"
+  links:
+    - "https://www.linkedin.com/in/maryamhaghighi/"
+    - "https://homesbymaryam.ca"
 
 permalink: /journal/:slug/
 
@@ -45,8 +61,8 @@ contact:
   mls: "https://maryamhaghighi.royallepage.ca"
   tagline: "Expertise. Integrity. Smart Investments."
 
-social:
-  - { name: "LinkedIn",  url: "https://linkedin.com/" }
+footer_links:
+  - { name: "LinkedIn", url: "https://www.linkedin.com/in/maryamhaghighi/" }
 
 nav:
   - { label: "Home",     url: "/" }

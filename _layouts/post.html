@@ -5,7 +5,7 @@ layout: default
   <header class="post-hero">
     <p class="eyebrow">{{ page.category | default: "The journal" }}</p>
     <h1 class="post-hero__title">{{ page.title }}</h1>
-    {% if page.excerpt_text %}<p class="post-hero__lead">{{ page.excerpt_text }}</p>{% endif %}
+    {% if page.description %}<p class="post-hero__lead">{{ page.description }}</p>{% endif %}
     <div class="post-hero__meta" style="margin-top: 32px;">
       <span class="date">{{ page.date | date: "%b %d, %Y" }}</span>
       <span class="sep">·</span>

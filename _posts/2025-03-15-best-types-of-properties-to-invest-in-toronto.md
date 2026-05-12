@@ -3,7 +3,7 @@ title: "Best Types of Properties to Invest in Toronto"
 date: 2025-03-15
 category: "Ontario Real Estate"
 read: "5 min"
-excerpt_text: "Toronto's real estate market offers diverse investment opportunities across condos, townhouses, detached homes, and multi-family properties — each suited to a different strategy."
+description: "Toronto's real estate market offers diverse investment opportunities across condos, townhouses, detached homes, and multi-family properties — each suited to a different strategy."
 tone: ["#e4dccb", "#a99680"]
 source: "https://homesbymaryam.ca/best-types-of-properties-to-invest-in-toronto/"
 ---

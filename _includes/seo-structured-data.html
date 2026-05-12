@@ -1,0 +1,92 @@
+{% assign base = site.url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["RealEstateAgent", "LocalBusiness"],
+      "@id": "{{ base }}/#business",
+      "name": "Homes by Maryam",
+      "alternateName": "Maryam Haghighi Real Estate",
+      "description": "{{ site.description | escape }}",
+      "url": "{{ base }}/",
+      "telephone": "{{ site.contact.phone }}",
+      "email": "{{ site.contact.email }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "8854 Yonge St.",
+        "addressLocality": "Richmond Hill",
+        "addressRegion": "ON",
+        "postalCode": "{{ site.contact.postal }}",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.8701,
+        "longitude": -79.4423
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Richmond Hill" },
+        { "@type": "City", "name": "Toronto" },
+        { "@type": "City", "name": "Vaughan" },
+        { "@type": "City", "name": "Markham" },
+        { "@type": "City", "name": "Mississauga" },
+        { "@type": "City", "name": "Oakville" },
+        { "@type": "City", "name": "Brampton" },
+        { "@type": "City", "name": "Newmarket" },
+        { "@type": "City", "name": "Aurora" }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "description": "By appointment only"
+      },
+      "priceRange": "$$$$",
+      "sameAs": ["https://www.linkedin.com/in/maryamhaghighi/"]
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ base }}/about/#maryam",
+      "name": "Maryam Haghighi",
+      "jobTitle": "Sales Representative",
+      "description": "REALTOR® with 20+ years of experience across real estate, banking, and technology — serving buyers, sellers, and investors across the Greater Toronto Area.",
+      "url": "{{ base }}/about/",
+      "worksFor": { "@id": "{{ base }}/#business" },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Toronto Regional Real Estate Board (TRREB)"
+      },
+      "sameAs": ["https://www.linkedin.com/in/maryamhaghighi/"]
+    }{% if page.layout == "post" %},
+    {
+      "@type": "Article",
+      "@id": "{{ page.url | absolute_url }}#article",
+      "headline": "{{ page.title | escape }}",
+      "description": "{{ page.description | escape }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+      "author": { "@id": "{{ base }}/about/#maryam" },
+      "publisher": { "@id": "{{ base }}/#business" },
+      "mainEntityOfPage": { "@id": "{{ page.url | absolute_url }}" }
+    }{% endif %},
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ page.url | absolute_url }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "{{ base }}/"
+        }{% unless page.url == "/" %},
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ page.title | escape }}",
+          "item": "{{ page.url | absolute_url }}"
+        }{% endunless %}
+      ]
+    }
+  ]
+}
+</script>

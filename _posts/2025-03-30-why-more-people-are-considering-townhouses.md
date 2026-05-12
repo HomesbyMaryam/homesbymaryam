@@ -3,7 +3,7 @@ title: "Why More People Are Considering Townhouses: A Smart Housing Choice"
 date: 2025-03-30
 category: "Buying Tips"
 read: "5 min"
-excerpt_text: "Townhouses offer the perfect balance of affordability, convenience, and modern living — a practical choice in today's competitive real estate market."
+description: "Townhouses offer the perfect balance of affordability, convenience, and modern living — a practical choice in today's competitive real estate market."
 tone: ["#dcd2bf", "#aa977a"]
 source: "https://homesbymaryam.ca/why-more-people-are-considering-townhouses-a-smart-housing-choice/"
 ---

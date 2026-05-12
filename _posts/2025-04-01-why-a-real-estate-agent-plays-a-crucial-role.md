@@ -3,7 +3,7 @@ title: "Why a Real Estate Agent Plays a Crucial Role in Your Property Purchase o
 date: 2025-04-01
 category: "Buying Tips"
 read: "6 min"
-excerpt_text: "Real estate is one of life's most significant financial decisions — a trusted agent brings the market knowledge, negotiation, and process management that make a transaction succeed."
+description: "Real estate is one of life's most significant financial decisions — a trusted agent brings the market knowledge, negotiation, and process management that make a transaction succeed."
 tone: ["#d6cdb8", "#8a785f"]
 source: "https://homesbymaryam.ca/why-a-real-estate-agent-plays-a-crucial-role-in-your-property-purchase-or-investment/"
 ---

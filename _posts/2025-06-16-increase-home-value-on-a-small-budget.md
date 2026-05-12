@@ -3,7 +3,7 @@ title: "How to Increase Your Home Value on a Small Budget"
 date: 2025-06-16
 category: "Selling Tips"
 read: "6 min"
-excerpt_text: "Improving your home doesn't always require a major renovation. Thoughtful, small upgrades can lift your property's value and appeal without a big spend."
+description: "Improving your home doesn't always require a major renovation. Thoughtful, small upgrades can lift your property's value and appeal without a big spend."
 tone: ["#d6cdb8", "#aa977a"]
 source: "https://homesbymaryam.ca/how-to-increase-your-home-value-in-small-budget/"
 ---

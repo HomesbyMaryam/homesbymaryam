@@ -3,7 +3,7 @@ title: "Why the Canadian Housing Market Became So Popular"
 date: 2025-04-07
 category: "Market Updates"
 read: "7 min"
-excerpt_text: "Over the past two decades, Canada's housing market transformed from a stable local industry into a hotbed of investment, immigration, and economic growth. Here's what drove the surge."
+description: "Over the past two decades, Canada's housing market transformed from a stable local industry into a hotbed of investment, immigration, and economic growth. Here's what drove the surge."
 tone: ["#cfc4ac", "#a99680"]
 source: "https://homesbymaryam.ca/why-the-canadian-housing-market-became-so-popular/"
 ---
