@@ -3,7 +3,7 @@ title: "Understanding the Housing Demand Surge in Toronto and Vancouver"
 date: 2025-04-17
 category: "Market Updates"
 read: "6 min"
-excerpt_text: "Immigration, supply constraints, and resilient demand have kept Toronto and Vancouver's housing markets in the spotlight — even through aggressive interest rate hikes."
+description: "Immigration, supply constraints, and resilient demand have kept Toronto and Vancouver's housing markets in the spotlight — even through aggressive interest rate hikes."
 tone: ["#e2dcc9", "#c2b699"]
 source: "https://homesbymaryam.ca/understanding-the-housing-demand-surge-in-toronto-and-vancouver/"
 ---

@@ -3,7 +3,7 @@ title: "A Guide to Approving Tenants in Ontario: Best Practices and Legal Consid
 date: 2025-05-13
 category: "Ontario Real Estate"
 read: "7 min"
-excerpt_text: "Tenant screening protects your investment — but Ontario's regulatory environment imposes specific obligations on landlords. Here's how to balance rigour with compliance."
+description: "Tenant screening protects your investment — but Ontario's regulatory environment imposes specific obligations on landlords. Here's how to balance rigour with compliance."
 tone: ["#d9cfb6", "#8e7c61"]
 source: "https://homesbymaryam.ca/a-guide-to-approving-tenants-in-ontario-best-practices-and-legal-considerations/"
 ---

@@ -3,7 +3,7 @@ title: "Who Are Condo Buyers? Understanding the Market and Their Needs"
 date: 2025-03-25
 category: "Ontario Real Estate"
 read: "4 min"
-excerpt_text: "The condo market attracts a wide variety of buyers, from first-time homeowners to seasoned investors. Understanding their motivations helps everyone navigate the market more effectively."
+description: "The condo market attracts a wide variety of buyers, from first-time homeowners to seasoned investors. Understanding their motivations helps everyone navigate the market more effectively."
 tone: ["#cfc4ac", "#7a6a52"]
 source: "https://homesbymaryam.ca/183-2/"
 ---

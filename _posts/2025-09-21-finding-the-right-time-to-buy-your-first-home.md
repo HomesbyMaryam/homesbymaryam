@@ -3,7 +3,7 @@ title: "Finding the Right Time to Buy Your First Home"
 date: 2025-09-21
 category: "Buying Tips"
 read: "6 min"
-excerpt_text: "Buying your first home is one of the biggest financial and emotional decisions you'll ever make — knowing when to make the leap can set you up for long-term stability."
+description: "Buying your first home is one of the biggest financial and emotional decisions you'll ever make — knowing when to make the leap can set you up for long-term stability."
 tone: ["#d6cdb8", "#b8a888"]
 source: "https://homesbymaryam.ca/finding-the-right-time-to-buy-your-first-home/"
 ---
