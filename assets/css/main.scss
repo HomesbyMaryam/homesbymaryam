@@ -308,6 +308,7 @@ main { min-height: 100vh; padding-top: 0; }
 .site-header.is-over-hero .header-cta { background: var(--ivory); color: var(--espresso); }
 
 .nav-toggle { display: none; }
+.nav-drawer  { display: none; }
 
 /* ------------------------------------------------------------ */
 /* Hero                                                         */
@@ -796,6 +797,7 @@ main { min-height: 100vh; padding-top: 0; }
   .site-header.is-over-hero .nav-toggle span::after { background: var(--ivory); }
 
   .nav-drawer {
+    display: flex;
     position: fixed; top: 0; right: 0; bottom: 0; width: min(320px, 80vw);
     background: var(--ivory); padding: 96px 32px 32px;
     transform: translateX(100%); transition: transform var(--dur-base) var(--ease-standard);
