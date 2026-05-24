@@ -52,4 +52,4 @@ Immigrants and professionals relocating for work often find condos to be a suita
 
 ## Conclusion
 
-The condo market attracts a wide variety of buyers, from first-time homeowners to seasoned investors. Understanding buyer motivations helps real estate professionals market condos effectively — and helps buyers recognize which segment of the market they're competing with.
+The condo market attracts a wide variety of buyers, from first-time homeowners to seasoned investors. Understanding buyer motivations helps real estate professionals market condos effectively, and helps buyers recognize which segment of the market they're competing with.

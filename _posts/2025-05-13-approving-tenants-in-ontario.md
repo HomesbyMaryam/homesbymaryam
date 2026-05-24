@@ -3,7 +3,7 @@ title: "A Guide to Approving Tenants in Ontario: Best Practices and Legal Consid
 date: 2025-05-13
 category: "Ontario Real Estate"
 read: "7 min"
-description: "Tenant screening protects your investment — but Ontario's regulatory environment imposes specific obligations on landlords. Here's how to balance rigour with compliance."
+description: "Tenant screening protects your investment, but Ontario's regulatory environment imposes specific obligations on landlords. Here's how to balance rigour with compliance."
 tone: ["#d9cfb6", "#8e7c61"]
 source: "https://homesbymaryam.ca/a-guide-to-approving-tenants-in-ontario-best-practices-and-legal-considerations/"
 ---
@@ -79,15 +79,15 @@ Establish a documented tenant selection policy and apply it uniformly to prevent
 
 ### Protect Privacy
 
-Handle all personal information according to Ontario's privacy legislation (Personal Information Protection and Electronic Documents Act — PIPEDA).
+Handle all personal information according to Ontario's privacy legislation (Personal Information Protection and Electronic Documents Act, PIPEDA).
 
 ### First-Come, First-Qualified
 
-To minimize bias allegations, certain landlords adopt a "first-come, first-qualified" approach — granting the unit to the initial applicant meeting the established criteria.
+To minimize bias allegations, certain landlords adopt a "first-come, first-qualified" approach, granting the unit to the initial applicant meeting the established criteria.
 
 ### Avoid Pitfalls and Discrimination
 
-Do not reject applicants solely because they are newcomers, receive social assistance, are students, or have children — these practices may violate the OHRC.
+Do not reject applicants solely because they are newcomers, receive social assistance, are students, or have children. These practices may violate the OHRC.
 
 ### When You Can Legally Refuse a Tenant
 

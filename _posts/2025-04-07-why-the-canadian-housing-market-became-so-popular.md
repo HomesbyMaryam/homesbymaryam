@@ -12,11 +12,11 @@ Over the past two decades, the Canadian housing market has gained worldwide atte
 
 ## 1. Economic Stability and Global Reputation
 
-Canada's political and economic stability has long been a magnet for investors seeking safe returns. Even during global financial crises, Canada's banking system — ranked as one of the soundest in the world — remained strong. This made Canadian real estate an attractive "safe haven" investment, especially for international buyers looking to protect their wealth.
+Canada's political and economic stability has long been a magnet for investors seeking safe returns. Even during global financial crises, Canada's banking system, ranked as one of the soundest in the world, remained strong. This made Canadian real estate an attractive "safe haven" investment, especially for international buyers looking to protect their wealth.
 
 ## 2. Low Interest Rates
 
-Following the 2008 financial crisis, the Bank of Canada kept interest rates historically low to stimulate economic growth. This made borrowing cheaper and boosted people's ability to afford larger mortgages. As a result, more Canadians — and foreign investors — entered the housing market, creating upward pressure on prices.
+Following the 2008 financial crisis, the Bank of Canada kept interest rates historically low to stimulate economic growth. This made borrowing cheaper and boosted people's ability to afford larger mortgages. As a result, more Canadians (and foreign investors) entered the housing market, creating upward pressure on prices.
 
 ## 3. High Immigration Rates
 
@@ -24,7 +24,7 @@ Canada's welcoming immigration policies have played a major role in fuelling dem
 
 ## 4. Foreign Investment
 
-In cities like Vancouver and Toronto, foreign buyers — particularly from China, the Middle East, and Europe — have invested heavily in residential real estate. Many viewed Canadian properties as a stable, appreciating asset, further heating the market. Although governments later introduced taxes to curb foreign buying, the early years of international investment created momentum that continues today.
+In cities like Vancouver and Toronto, foreign buyers, particularly from China, the Middle East, and Europe, have invested heavily in residential real estate. Many viewed Canadian properties as a stable, appreciating asset, further heating the market. Although governments later introduced taxes to curb foreign buying, the early years of international investment created momentum that continues today.
 
 ## 5. Urbanization and Population Growth
 
@@ -36,11 +36,11 @@ In Canada, owning a home has traditionally been seen as a key milestone of succe
 
 ## 7. Limited Housing Supply
 
-Zoning restrictions, lengthy approval processes, and geographic constraints (like mountains in Vancouver or lakes around Toronto) have limited the supply of new homes. When supply can't meet demand, prices inevitably rise — and in Canada's case, they skyrocketed.
+Zoning restrictions, lengthy approval processes, and geographic constraints (like mountains in Vancouver or lakes around Toronto) have limited the supply of new homes. When supply can't meet demand, prices inevitably rise, and in Canada's case, they skyrocketed.
 
 ## 8. Global Recognition and Lifestyle Appeal
 
-Canada consistently ranks high on quality-of-life indices, offering a clean environment, excellent healthcare, good education, and a peaceful society. For international investors and immigrants alike, buying property here is not just a financial decision — it's a lifestyle choice.
+Canada consistently ranks high on quality-of-life indices, offering a clean environment, excellent healthcare, good education, and a peaceful society. For international investors and immigrants alike, buying property here is not just a financial decision; it's a lifestyle choice.
 
 ## Final Thoughts
 

@@ -3,12 +3,12 @@ title: "Finding the Right Time to Buy Your First Home"
 date: 2025-09-21
 category: "Buying Tips"
 read: "6 min"
-description: "Buying your first home is one of the biggest financial and emotional decisions you'll ever make — knowing when to make the leap can set you up for long-term stability."
+description: "Buying your first home is one of the biggest financial and emotional decisions you'll ever make. Knowing when to make the leap can set you up for long-term stability."
 tone: ["#d6cdb8", "#b8a888"]
 source: "https://homesbymaryam.ca/finding-the-right-time-to-buy-your-first-home/"
 ---
 
-Buying your first home is one of the biggest financial and emotional decisions you'll ever make. It's not just about finding a property you love — it's about ensuring the timing is right for both your personal circumstances and the housing market. Knowing when to make the leap can help you avoid unnecessary stress and set yourself up for long-term stability.
+Buying your first home is one of the biggest financial and emotional decisions you'll ever make. It's not just about finding a property you love. It's about ensuring the timing is right for both your personal circumstances and the housing market. Knowing when to make the leap can help you avoid unnecessary stress and set yourself up for long-term stability.
 
 ## 1. Assess Your Financial Readiness
 
@@ -36,10 +36,10 @@ While it's nearly impossible to "time the market perfectly," keeping an eye on t
 Beyond finances, your personal goals matter. Ask yourself:
 
 - Do you plan to stay in the area for at least 5–7 years?
-- Are you ready for the responsibilities of homeownership — maintenance, repairs, property taxes?
+- Are you ready for the responsibilities of homeownership (maintenance, repairs, property taxes)?
 - Does the home you're considering align with your long-term needs, such as space for family or proximity to work?
 
-If your life is still in transition — such as pursuing further education, relocating for work, or uncertain about family plans — it might be best to wait.
+If your life is still in transition (such as pursuing further education, relocating for work, or uncertain about family plans), it might be best to wait.
 
 ## 4. Emotional Readiness Matters Too
 

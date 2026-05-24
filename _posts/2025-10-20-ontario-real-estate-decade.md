@@ -3,7 +3,7 @@ title: "Ontario Real Estate Market: A Decade of Unprecedented Growth and Transfo
 date: 2025-10-20
 category: "Market Updates"
 read: "8 min"
-description: "Ontario's housing landscape has experienced significant shifts over the past ten years — from stable conditions in 2015 through rapid acceleration, pandemic-driven booms, and subsequent corrections."
+description: "Ontario's housing landscape has experienced significant shifts over the past ten years, from stable conditions in 2015 through rapid acceleration, pandemic-driven booms, and subsequent corrections."
 tone: ["#e2dcc9", "#8a785f"]
 source: "https://homesbymaryam.ca/ontario-real-estate-market-a-decade-of-unprecedented-growth-and-transformation-2015-2025/"
 ---
