@@ -19,7 +19,7 @@ image: "/assets/images/photos/maryam-headshot-studio.jpg"
 social:
   name: "Maryam Haghighi"
   links:
-    - "https://www.linkedin.com/in/maryamhaghighi/"
+    - "https://www.linkedin.com/in/maryamsabet/"
     - "https://homesbymaryam.ca"
 
 permalink: /journal/:slug/
@@ -64,7 +64,7 @@ contact:
   tagline: "Expertise. Integrity. Smart Investments."
 
 footer_links:
-  - { name: "LinkedIn", url: "https://www.linkedin.com/in/maryamhaghighi/" }
+  - { name: "LinkedIn", url: "https://www.linkedin.com/in/maryamsabet/" }
 
 nav:
   - { label: "Home",     url: "/" }
