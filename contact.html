@@ -1,47 +1,54 @@
 ---
 layout: default
 title: "Contact Maryam Haghighi | King City & York Region REALTOR® | 905-731-2000"
-description: "Get in touch with Maryam Haghighi, your King City and York Region real estate expert. Call 905-731-2000, email maryam@homesbymaryam.ca, or send a message to start the conversation about your next move."
+description: "Reach Maryam Haghighi, King City and York Region REALTOR®. Call 905-731-2000, email maryam@homesbymaryam.ca, or visit the Yonge Street office in Richmond Hill."
 permalink: /contact/
 ---
 
+<!-- ─── Section 1 · Invitation + primary contact + map ─── -->
 <section class="section section--pad-140">
   <div class="section__inner">
     <div class="two-col">
       <div>
         <p class="eyebrow">Get in touch</p>
         <h1 class="section-title">Let's talk.</h1>
-        <p class="lead" style="margin-top:16px; margin-bottom:40px;">
-          Tell me a little about what you're thinking. I'll reply within a business day, usually sooner.
+        <p class="lead" style="margin-top:16px; margin-bottom:28px;">
+          Whether you're a year out from selling the family home in King City, looking at your first detached in Aurora, or weighing a second investment property in Richmond Hill, the first conversation is the most useful one. You walk away with a clearer read on the market regardless of whether we end up working together.
+        </p>
+        <p style="margin: 0 0 36px; font-size: 16px; color: var(--walnut); line-height: 1.75;">
+          Pick the channel that suits you. Calls are returned within a business day, usually within a few hours.
         </p>
 
-        <form class="form-grid" onsubmit="event.preventDefault();">
-          <div class="form-grid form-grid--2">
-            <label class="field"><span class="field__label">Name</span>
-              <input class="field__input" type="text" name="name" />
-            </label>
-            <label class="field"><span class="field__label">Email</span>
-              <input class="field__input" type="email" name="email" />
-            </label>
+        <dl style="display:grid; gap:22px; margin:0 0 12px; padding:0;">
+          <div style="display:grid; grid-template-columns: 110px 1fr; gap:18px; align-items:baseline;">
+            <dt style="font-family:var(--font-sans); font-size:11px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:var(--gold-deep); margin:0;">Phone</dt>
+            <dd style="margin:0; font-family:var(--font-display); font-size:24px; color:var(--espresso); line-height:1.3;">
+              <a href="tel:{{ site.contact.phone | replace: ' ', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' }}">{{ site.contact.phone }}</a>
+              <span style="display:block; font-family:var(--font-sans); font-size:13px; color:var(--walnut); margin-top:4px;">Direct line, Monday to Saturday.</span>
+            </dd>
           </div>
-          <div class="form-grid form-grid--2">
-            <label class="field"><span class="field__label">Phone</span>
-              <input class="field__input" type="tel" name="phone" />
-            </label>
-            <label class="field"><span class="field__label">Buying or selling?</span>
-              <select class="field__input-select" name="intent">
-                <option>Buying</option>
-                <option>Selling</option>
-                <option>Both</option>
-                <option>Curious</option>
-              </select>
-            </label>
+          <div style="display:grid; grid-template-columns: 110px 1fr; gap:18px; align-items:baseline;">
+            <dt style="font-family:var(--font-sans); font-size:11px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:var(--gold-deep); margin:0;">Email</dt>
+            <dd style="margin:0; font-family:var(--font-display); font-size:24px; color:var(--espresso); line-height:1.3; word-break:break-word;">
+              <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+              <span style="display:block; font-family:var(--font-sans); font-size:13px; color:var(--walnut); margin-top:4px;">Best for detailed questions, documents, or scheduling.</span>
+            </dd>
           </div>
-          <label class="field"><span class="field__label">Message</span>
-            <textarea class="field__input-textarea" name="message" rows="5"></textarea>
-          </label>
-          <button class="btn btn--dark" type="submit" style="justify-self:start;">Send message</button>
-        </form>
+          <div style="display:grid; grid-template-columns: 110px 1fr; gap:18px; align-items:baseline;">
+            <dt style="font-family:var(--font-sans); font-size:11px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:var(--gold-deep); margin:0;">In person</dt>
+            <dd style="margin:0; font-family:var(--font-display); font-size:24px; color:var(--espresso); line-height:1.3;">
+              8854 Yonge St., Richmond Hill
+              <span style="display:block; font-family:var(--font-sans); font-size:13px; color:var(--walnut); margin-top:4px;">By appointment. Coffee or tea on the house.</span>
+            </dd>
+          </div>
+          <div style="display:grid; grid-template-columns: 110px 1fr; gap:18px; align-items:baseline;">
+            <dt style="font-family:var(--font-sans); font-size:11px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:var(--gold-deep); margin:0;">LinkedIn</dt>
+            <dd style="margin:0; font-family:var(--font-display); font-size:24px; color:var(--espresso); line-height:1.3;">
+              <a href="https://www.linkedin.com/in/maryamhaghighi/" rel="noopener">/in/maryamhaghighi</a>
+              <span style="display:block; font-family:var(--font-sans); font-size:13px; color:var(--walnut); margin-top:4px;">For referrals and professional introductions.</span>
+            </dd>
+          </div>
+        </dl>
       </div>
 
       <div>
@@ -59,12 +66,136 @@ permalink: /contact/
           By appointment only
         </p>
         <p style="font-size:14px; color:var(--walnut); line-height:1.8; margin:0;">
-          <a href="tel:{{ site.contact.phone | replace: ' ', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' }}">{{ site.contact.phone }}</a><br />
-          <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a><br /><br />
-          Maryam Haghighi - Sales Representative<br />
-          RE/MAX You Community Realty Brokerage LTD.
+          Maryam Haghighi, Sales Representative<br />
+          RE/MAX You Community Realty Brokerage LTD.<br />
+          Member, Toronto Regional Real Estate Board (TRREB)
         </p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Section 2 · What happens after you reach out ─── -->
+<section class="section section--alt section--pad-120">
+  <div class="section__inner">
+    <p class="eyebrow">What happens next</p>
+    <h2 class="section-title">A measured, three-step start.</h2>
+
+    <div class="step-list">
+      <div class="step-list__item">
+        <p class="step-list__num">01</p>
+        <div>
+          <h3 class="step-list__h">Reply within a business day</h3>
+          <p class="step-list__b">You hear back from me directly, not from an assistant or an auto-responder. If your timing is genuinely urgent (a competing offer, a closing date moving up), say so in the first message and I will reorder my day around it.</p>
+        </div>
+      </div>
+      <div class="step-list__item">
+        <p class="step-list__num">02</p>
+        <div>
+          <h3 class="step-list__h">A thirty-minute conversation</h3>
+          <p class="step-list__b">In person at the Yonge Street office, by phone, or over video. We cover the property or neighbourhood you have in mind, your real timeline, the financial constraints worth discussing up front, and what the market data is currently doing in that pocket of King City, Aurora, or wherever you are looking.</p>
+        </div>
+      </div>
+      <div class="step-list__item">
+        <p class="step-list__num">03</p>
+        <div>
+          <h3 class="step-list__h">A clear next step, no pressure</h3>
+          <p class="step-list__b">You leave with a market read and a concrete next move, whether that is a CMA on your current home, a curated tour list, an investment scan, or a measured "wait six months." There is no obligation to engage further, and no follow-up sales call unless you ask for one.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Section 3 · Where the practice fits best ─── -->
+<section class="section section--pad-120">
+  <div class="section__inner">
+    <p class="eyebrow">Reach out if you are</p>
+    <h2 class="section-title">Where the practice fits best.</h2>
+    <p class="lead" style="margin-top:20px; max-width:760px; color:var(--walnut); font-size:18px;">
+      Twenty years across real estate, banking, and investment shape the kind of work this practice does well. A few of the situations that come through the office most often:
+    </p>
+
+    <div class="services-grid" style="margin-top:48px;">
+      <div class="service-card service-card--bullet" style="cursor:default;">
+        <h3 class="service-card__h">King City sellers</h3>
+        <p class="service-card__b">Pricing strategy and the right buyer pool matter more than visibility. Estate properties on King Road, Kingscross, and the Hills of St. Andrew need a launch plan, not just a sign on the lawn.</p>
+      </div>
+      <div class="service-card service-card--bullet" style="cursor:default;">
+        <h3 class="service-card__h">First-time York Region buyers</h3>
+        <p class="service-card__b">Aurora, Newmarket, Richmond Hill, Vaughan. You want someone who walks every offer with you, explains the math, and never hands you off to a junior partway through.</p>
+      </div>
+      <div class="service-card service-card--bullet" style="cursor:default;">
+        <h3 class="service-card__h">Investors weighing a move</h3>
+        <p class="service-card__b">Holding a property in York Region and deciding whether the next move is to refinance, sell, or add a second hold. Modelled out properly, with cap rate and cash-on-cash side by side.</p>
+      </div>
+      <div class="service-card service-card--bullet" style="cursor:default;">
+        <h3 class="service-card__h">Downsizers</h3>
+        <p class="service-card__b">Leaving a long-held family home. The financial side and the emotional side both deserve to be handled with care, and one usually paces the other.</p>
+      </div>
+      <div class="service-card service-card--bullet" style="cursor:default;">
+        <h3 class="service-card__h">Relocating professionals</h3>
+        <p class="service-card__b">Coming to the GTA from another province or country. You need an honest read on neighbourhoods, schools, and commute reality before you book the flight, not after.</p>
+      </div>
+      <div class="service-card service-card--bullet" style="cursor:default;">
+        <h3 class="service-card__h">Curious, not yet committed</h3>
+        <p class="service-card__b">Thinking about a move twelve to twenty-four months out and want a real conversation about the King City or Aurora market, not a generic, mass-emailed market report.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Section 4 · Common first questions ─── -->
+<section class="section section--alt section--pad-120">
+  <div class="section__inner">
+    <p class="eyebrow">Before you reach out</p>
+    <h2 class="section-title">Common first questions.</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 class="faq-item__q">Is the first conversation really free?</h3>
+        <p class="faq-item__a">
+          Yes. No retainer, no fee for a conversation, no commitment that follows it. The first call or meeting exists so we can both decide whether the fit is right. If it isn't, I will often point you toward a colleague who is better suited.
+        </p>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-item__q">I'm not sure I'm ready to move yet. Should I still call?</h3>
+        <p class="faq-item__a">
+          The earlier the conversation, the better the outcome. Several of my best client outcomes started eighteen to twenty-four months before the sale or purchase, with a market read, a pricing target, and a plan to prep the property properly. If you are a year out, that is the right time.
+        </p>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-item__q">Do you work outside King City and York Region?</h3>
+        <p class="faq-item__a">
+          King City and York Region are the heart of the practice, and where the local fluency runs deepest. I also work into central Toronto for established clients with multi-property portfolios. If you are outside those areas, I am happy to refer you to a specialist I trust.
+        </p>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-item__q">What's the best way to reach you?</h3>
+        <p class="faq-item__a">
+          Phone for time-sensitive questions, email for anything that benefits from a written record or attachments. I read every email and return every call personally. The office line at 905-731-2000 reaches the front desk first; mention you are trying to reach me directly and they will route you.
+        </p>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-item__q">Can I just see what's on the MLS?</h3>
+        <p class="faq-item__a">
+          You can browse active listings any time at <a href="{{ site.contact.mls }}">maryamhaghighi.royallepage.ca</a>. The more interesting inventory in King City and the surrounding estate pockets often moves before it reaches the public board, so the listings you see online are usually only part of the picture worth discussing.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Section 5 · Closing CTA ─── -->
+<section class="section section--pad-140 cta-strip">
+  <div class="section__inner section__inner--center">
+    <p class="eyebrow">Ready when you are</p>
+    <h2 class="cta-strip__title">The most useful next step is<br />the first one.</h2>
+    <p class="cta-strip__lead">
+      A call, an email, or a coffee at the Yonge Street office. Whichever suits you, we will keep it short, honest, and grounded in real numbers for the market you actually care about.
+    </p>
+    <div class="cta-strip__actions">
+      <a class="btn btn--gold" href="tel:{{ site.contact.phone | replace: ' ', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' }}">Call {{ site.contact.phone }}</a>
+      <a class="btn btn--ghost" href="mailto:{{ site.contact.email }}">Email {{ site.contact.email }}</a>
     </div>
   </div>
 </section>

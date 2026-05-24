@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Homes by Maryam">
+  <rect width="64" height="64" rx="10" ry="10" fill="#2A2622"/>
+  <!-- Geometric serif M, drawn as paths so it renders identically without a webfont.
+       Espresso ground, gold-soft mark. Optical centring nudged 1px right of geometric centre. -->
+  <g fill="#D9C385">
+    <!-- Left outer stem with top + bottom serifs -->
+    <path d="M11 14 h11 v3 h-3 v30 h3 v3 H11 v-3 h3 V17 h-3 z"/>
+    <!-- Right outer stem with top + bottom serifs -->
+    <path d="M42 14 h11 v3 h-3 v30 h3 v3 H42 v-3 h3 V17 h-3 z"/>
+    <!-- Left diagonal of the M (from top of left stem down to the apex) -->
+    <path d="M17 14 h5 l13 21 -2.5 4 z"/>
+    <!-- Right diagonal of the M (from top of right stem down to the apex) -->
+    <path d="M42 14 h5 l-10.5 25 -2.5 -4 z"/>
+  </g>
+</svg>
