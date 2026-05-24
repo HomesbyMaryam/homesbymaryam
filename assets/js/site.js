@@ -21,20 +21,6 @@
     });
   }
 
-  // Testimonial rotator.
-  document.querySelectorAll("[data-testimonial]").forEach((root) => {
-    const quotes = root.querySelectorAll(".testimonial__slide");
-    const dots   = root.querySelectorAll(".testimonial__dots button");
-    let i = 0;
-    const show = (n) => {
-      i = n;
-      quotes.forEach((q, k) => (q.style.display = k === n ? "block" : "none"));
-      dots.forEach((d, k) => d.classList.toggle("is-active", k === n));
-    };
-    dots.forEach((d, k) => d.addEventListener("click", () => show(k)));
-    show(0);
-  });
-
   // Listings filter.
   const grid = document.querySelector("[data-listings-grid]");
   if (grid) {

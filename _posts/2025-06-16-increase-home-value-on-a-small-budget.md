@@ -12,7 +12,7 @@ Improving your home doesn't always require a big renovation or major expense. Wi
 
 ## 1. Give It a Fresh Coat of Paint
 
-Painting is one of the easiest and most effective ways to refresh your home. Neutral tones like soft greys, whites, and beiges help create a clean and modern look that appeals to most buyers or guests. Don't forget baseboards, doors, and trim — they make a big difference when they look fresh.
+Painting is one of the easiest and most effective ways to refresh your home. Neutral tones like soft greys, whites, and beiges help create a clean and modern look that appeals to most buyers or guests. Don't forget baseboards, doors, and trim. They make a big difference when they look fresh.
 
 ## 2. Update Light Fixtures
 

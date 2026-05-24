@@ -3,7 +3,7 @@ title: "Understanding the Housing Demand Surge in Toronto and Vancouver"
 date: 2025-04-17
 category: "Market Updates"
 read: "6 min"
-description: "Immigration, supply constraints, and resilient demand have kept Toronto and Vancouver's housing markets in the spotlight — even through aggressive interest rate hikes."
+description: "Immigration, supply constraints, and resilient demand have kept Toronto and Vancouver's housing markets in the spotlight, even through aggressive interest rate hikes."
 tone: ["#e2dcc9", "#c2b699"]
 source: "https://homesbymaryam.ca/understanding-the-housing-demand-surge-in-toronto-and-vancouver/"
 ---
@@ -18,7 +18,7 @@ The Greater Toronto Area's population growth has consistently outpaced housing s
 
 While demand has surged, housing supply hasn't kept pace. Both cities face constraints from restrictive zoning laws, particularly regarding high-density and multi-family units in traditionally low-rise neighbourhoods.
 
-Vancouver's geographic limitations — ocean to the west and mountains to the north — inherently restrict building space. Toronto struggles with bureaucratic delays and development approvals that slow new inventory reaching the market.
+Vancouver's geographic limitations (ocean to the west and mountains to the north) inherently restrict building space. Toronto struggles with bureaucratic delays and development approvals that slow new inventory reaching the market.
 
 ## Interest Rates and Market Resilience
 
@@ -34,7 +34,7 @@ Both cities face affordability challenges with average home prices beyond most m
 - **First-time homebuyer incentives** and low-interest loans for new developments
 - **Zoning reform initiatives**, particularly in Toronto, to enable more "missing middle" housing
 
-Critics contend these measures don't adequately address root causes — the supply-demand imbalance.
+Critics contend these measures don't adequately address root causes: the supply-demand imbalance.
 
 ## Outlook for 2025 and Beyond
 
@@ -44,4 +44,4 @@ Investors and homebuyers should focus on navigating market fluctuations while em
 
 ## Conclusion
 
-Toronto and Vancouver's housing demand reflects broader demographic and economic trends — immigration, urbanization, and global investment. While affordability and supply challenges persist, both cities remain resilient, dynamic markets attracting people worldwide. Future housing outcomes depend on effective collaboration between governments, developers, and communities to create sustainable, livable urban environments.
+Toronto and Vancouver's housing demand reflects broader demographic and economic trends: immigration, urbanization, and global investment. While affordability and supply challenges persist, both cities remain resilient, dynamic markets attracting people worldwide. Future housing outcomes depend on effective collaboration between governments, developers, and communities to create sustainable, livable urban environments.

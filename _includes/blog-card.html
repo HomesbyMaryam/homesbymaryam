@@ -1,10 +1,19 @@
 {% assign tone = include.post.tone | default: post.tone %}
-{% assign t0 = tone[0] | default: "#e2dcc9" %}
-{% assign t1 = tone[1] | default: "#b8a888" %}
-<a class="blog-card {% if include.large %}blog-card--large{% endif %}" data-post-cat="{{ include.post.category }}" href="{{ include.post.url | relative_url }}" style="text-decoration:none; border:0;">
-  <div class="blog-card__panel" style="background: linear-gradient(135deg, {{ t0 }} 0%, {{ t1 }} 100%);"></div>
+{% assign t0 = tone[0] | default: "#FAF7F2" %}
+{% assign t1 = tone[1] | default: "#E4DCCD" %}
+{% assign cat = include.post.category | default: "Notes" %}
+{% assign initial = cat | slice: 0, 1 | upcase %}
+<a class="blog-card {% if include.large %}blog-card--large{% endif %}" data-post-cat="{{ cat }}" href="{{ include.post.url | relative_url }}" style="text-decoration:none; border:0;">
+  <div class="blog-card__cover" style="background: linear-gradient(155deg, {{ t0 }} 0%, {{ t1 }} 100%);">
+    <div class="blog-card__cover-frame" aria-hidden="true">
+      <span class="blog-card__cover-cat">{{ cat }}</span>
+      <span class="blog-card__cover-mark">{{ initial }}</span>
+      <span class="blog-card__cover-rule"></span>
+      <span class="blog-card__cover-tag">Journal · No. {{ forloop.index | default: include.post.number | default: "01" }}</span>
+    </div>
+  </div>
   <div class="blog-card__meta">
-    <span class="blog-card__cat">{{ include.post.category }}</span>
+    <span class="blog-card__cat">{{ cat }}</span>
     <span class="sep">·</span>
     <span class="blog-card__date">{{ include.post.date | date: "%b %d, %Y" }}</span>
     <span class="sep">·</span>
